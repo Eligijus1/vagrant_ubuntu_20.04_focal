@@ -15,7 +15,7 @@ Vagrant.configure("2") do |config|
     # The hostname the machine should have. Defaults to nil. If nil, 
     # Vagrant will not manage the hostname. If set to a string, the 
     # hostname will be set on boot.
-    config.vm.hostname = "vagrant_ubuntu_20.test"
+    config.vm.hostname = "vagrant-ubuntu-20.test"
 
     # Configures networks on the machine:
     # config.vm.network "private_network", type: "dhcp"

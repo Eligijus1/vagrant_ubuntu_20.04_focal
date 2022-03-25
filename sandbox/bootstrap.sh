@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 
 echo "# IPv4 and IPv6 localhost aliases:" | sudo tee /etc/hosts
-echo "127.0.0.1 vagrant_ubuntu_20.test vagrant_ubuntu_20.test localhost" | sudo tee -a /etc/hosts
-echo "::1       vagrant_ubuntu_20.test vagrant_ubuntu_20.test localhost" | sudo tee -a /etc/hosts
-echo "10.0.2.22 vagrant_ubuntu_20.test vagrant_ubuntu_20.test localhost" | sudo tee -a /etc/hosts
+echo "127.0.0.1 vagrant-ubuntu-20.test vagrant-ubuntu-20.test localhost" | sudo tee -a /etc/hosts
+echo "::1       vagrant-ubuntu-20.test vagrant-ubuntu-20.test localhost" | sudo tee -a /etc/hosts
+echo "10.0.2.22 vagrant-ubuntu-20.test vagrant-ubuntu-20.test localhost" | sudo tee -a /etc/hosts
 
 # Update packages:
 apt-get update
